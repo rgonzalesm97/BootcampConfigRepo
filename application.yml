@@ -1,5 +1,6 @@
 product:
   names: Cuenta Ahorro, Cuenta Corriente, Plazo Fijo, Credito Personal, Credito Empresarial, Tarjeta de Credito Personal, Tarjeta de Credito Empresarial
+  test: {hola:1,cuenta:chau}
   cuentaAhorro:
     maintenance: 0
     monthlyMovements: 10
