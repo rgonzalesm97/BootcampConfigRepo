@@ -1,5 +1,5 @@
 my:
-  greeting: Hello World from Config Server del main
+  greeting: Updated Hello World from Config Server del main
   list:
     values: One, Two, Three
 
