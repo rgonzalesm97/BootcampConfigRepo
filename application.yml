@@ -1,24 +1,18 @@
 product:
+  names: [Cuenta Ahorro, Cuenta Corriente, Plazo Fijo, Credito Personal, Credito Empresarial, Tarjeta de Credito Personal, Tarjeta de Credito Empresarial]
   cuentaAhorro:
-    name: Cuenta Ahorro
     maintenance: 0
     monthlyMovements: 10
   cuentaCorriente: 
-    name: Cuenta Corriente
     maintenance: 20
     monthlyMovements: -1
   plazoFijo:
-    name: Plazo Fijo
     maintenance: 0
     monthlyMovements: 1
-  creditoPersonal:
-    name: Credito Personal
+  creditoPersonal: test
   creditoEmpresarial:
-    name: Credito Empresarial
   tarjetaCreditoPersonal:
-    name: Tarjeta de Credito Personal
   tarjetaCreditoEmpresarial:
-    name: Tarjeta de Credito Empresarial
 
 db:
   connection: connection-string-here
