@@ -1,7 +1,24 @@
-my:
-  greeting: Updated Hello World from Config Server del main
-  list:
-    values: One, Two, Three
+product:
+  cuentaAhorro:
+    name: Cuenta Ahorro
+    maintenance: 0
+    monthlyMovements: 10
+  cuentaCorriente: 
+    name: Cuenta Corriente
+    maintenance: 20
+    monthlyMovements: -1
+  plazoFijo:
+    name: Plazo Fijo
+    maintenance: 0
+    monthlyMovements: 1
+  creditoPersonal:
+    name: Credito Personal
+  creditoEmpresarial:
+    name: Credito Empresarial
+  tarjetaCreditoPersonal:
+    name: Tarjeta de Credito Personal
+  tarjetaCreditoEmpresarial:
+    name: Tarjeta de Credito Empresarial
 
 db:
   connection: connection-string-here
