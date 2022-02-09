@@ -1,5 +1,7 @@
 
-db:
-  connection: connection-string-here
-  host: 127.0.0.1
-  port: 2800
+services:
+  client: http://localhost:8080/client
+  product: http://localhost:8081/product
+  payment: http://localhost:8082/payment
+  transaction: http://localhost:8083/transaction
+  history: http://localhost:8084/history
