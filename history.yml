@@ -13,4 +13,4 @@ spring:
     mongodb:
       uri: mongodb+srv://rgonzalesm97:JFhtRLmWRJfS2eMA@micluster.tqgdj.mongodb.net/BootcampP1Bank?retryWrites=true&w=majority
   config:
-    import: optional:configserver:
+    import: 'optional:config-server:'
