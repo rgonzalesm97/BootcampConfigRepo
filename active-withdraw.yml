@@ -8,7 +8,3 @@ eureka:
       default-zone: http://localhost:8761/eureka
     instance:
       hostname: localhost
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://rgonzalesm97:JFhtRLmWRJfS2eMA@micluster.tqgdj.mongodb.net/BootcampP1Bank?retryWrites=true&w=majority
