@@ -17,7 +17,7 @@ spring:
           enable: true
       router:
         - id: client
-          uri: lb://client
+          uri: http:localhost/client
           predicates:
             - Path=/client/**
         - id: history
