@@ -25,15 +25,15 @@ spring:
         predicates:
         - Path=/history/**
       - id: passive-transaction
-        uri: lb://passive-transaction
+        uri: http://localhost:8083
         predicates:
         - Path=/passive-transaction/**
       - id: active-withdraw
-        uri: lb://active-withdraw
+        uri: http://localhost:8085
         predicates:
         - Path=/active-withdraw/**
       - id: active-payment
-        uri: lb://active-payment
+        uri: http://localhost:8084
         predicates:
         - Path=/active-payment/**
         
