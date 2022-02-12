@@ -15,24 +15,9 @@ spring:
       dicovery:
         locator:
           enable: true
-      router:
-        - id: client
-          uri: http://localhost:8080
-          predicates:
-            - Path=/client/**
-        - id: history
-          uri: lb://history
-          predicates:
-            - Path=/history/**
-        - id: passive-transaction
-          uri: lb://passive-transaction
-          predicates:
-            - Path=/passive-transaction/**
-        - id: active-withdraw
-          uri: lb://active-withdraw
-          predicates:
-            - Path=/active-withdraw/**
-        - id: active-payment
-          uri: lb://active-payment
-          predicates:
-            - Path=/active-payment/**
+      routes:
+      - id: client
+        uri: http://localhost:8080
+        predicates:
+        - Path=/client/**
+        
