@@ -20,19 +20,19 @@ spring:
           uri: lb://client
           predicates:
             - Path=/client/**
-          - id: history
+        - id: history
           uri: lb://history
           predicates:
             - Path=/history/**
-          - id: passive-transaction
+        - id: passive-transaction
           uri: lb://passive-transaction
           predicates:
             - Path=/passive-transaction/**
-          - id: active-withdraw
+        - id: active-withdraw
           uri: lb://active-withdraw
           predicates:
             - Path=/active-withdraw/**
-          - id: active-payment
+        - id: active-payment
           uri: lb://active-payment
           predicates:
             - Path=/active-payment/**
