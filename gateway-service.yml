@@ -20,6 +20,14 @@ spring:
         uri: http://localhost:8080
         predicates:
         - Path=/client/**
+      - id: credit
+        uri: http://localhost:8082
+        predicates:
+        - Path=/credit/**
+      - id: account
+        uri: http://localhost:8081
+        predicates:
+        - Path=/account/**
       - id: history
         uri: http://localhost:8086
         predicates:
