@@ -44,4 +44,8 @@ spring:
         uri: http://localhost:8084
         predicates:
         - Path=/active-payment/**
+      - id: report
+        uri: http://localhost:8087
+        predicates:
+        - Path=/report/**
         
