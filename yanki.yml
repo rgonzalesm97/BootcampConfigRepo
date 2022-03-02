@@ -22,7 +22,7 @@ spring:
       security:
         protocol: SASL_SSL
     producer:
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
     consumer:
       auto-offset-reset: latest
       group-id: xc73qeeh-consumers
